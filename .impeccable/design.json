@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T22:44:58-03:00",
+  "title": "Design System: Rafael Guerra Waldrigues Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "examination-cyan": {
+        "role": "primary",
+        "displayName": "Examination Cyan",
+        "tonalRamp": ["oklch(15% 0.04 200)", "oklch(27% 0.06 200)", "oklch(39% 0.08 200)", "oklch(51% 0.10 200)", "oklch(63% 0.11 200)", "oklch(75% 0.09 200)", "oklch(87% 0.06 200)", "oklch(95% 0.03 200)"]
+      },
+      "annotation-orange": {
+        "role": "secondary",
+        "displayName": "Annotation Orange",
+        "tonalRamp": ["oklch(15% 0.06 55)", "oklch(27% 0.10 55)", "oklch(39% 0.14 55)", "oklch(51% 0.18 55)", "oklch(63% 0.20 55)", "oklch(75% 0.16 55)", "oklch(87% 0.10 55)", "oklch(95% 0.05 55)"]
+      },
+      "graphite-ground": {
+        "role": "neutral",
+        "displayName": "Graphite Ground",
+        "tonalRamp": ["oklch(15% 0.015 195)", "oklch(27% 0.015 195)", "oklch(39% 0.015 195)", "oklch(51% 0.015 195)", "oklch(63% 0.014 195)", "oklch(75% 0.012 195)", "oklch(87% 0.008 195)", "oklch(95% 0.004 195)"]
+      },
+      "frost-ink": {
+        "role": "neutral",
+        "displayName": "Frost Ink",
+        "tonalRamp": ["oklch(15% 0.005 205)", "oklch(27% 0.005 205)", "oklch(39% 0.005 205)", "oklch(51% 0.005 205)", "oklch(63% 0.005 205)", "oklch(75% 0.004 205)", "oklch(87% 0.003 205)", "oklch(95% 0.002 205)"]
+      },
+      "heading-frost": {
+        "role": "neutral",
+        "displayName": "Heading Frost",
+        "tonalRamp": ["oklch(15% 0.006 205)", "oklch(27% 0.006 205)", "oklch(39% 0.006 205)", "oklch(51% 0.006 205)", "oklch(63% 0.005 205)", "oklch(75% 0.004 205)", "oklch(87% 0.003 205)", "oklch(95% 0.002 205)"]
+      },
+      "body-mist": {
+        "role": "neutral",
+        "displayName": "Body Mist",
+        "tonalRamp": ["oklch(15% 0.012 205)", "oklch(27% 0.012 205)", "oklch(39% 0.012 205)", "oklch(51% 0.012 205)", "oklch(63% 0.011 205)", "oklch(75% 0.009 205)", "oklch(87% 0.006 205)", "oklch(95% 0.003 205)"]
+      },
+      "glass-line": {
+        "role": "neutral",
+        "displayName": "Glass Line",
+        "tonalRamp": ["oklch(15% 0.025 205)", "oklch(27% 0.025 205)", "oklch(39% 0.025 205)", "oklch(51% 0.024 205)", "oklch(63% 0.021 205)", "oklch(75% 0.017 205)", "oklch(87% 0.010 205)", "oklch(95% 0.005 205)"]
+      },
+      "muted-cyan": {
+        "role": "primary",
+        "displayName": "Muted Cyan",
+        "tonalRamp": ["oklch(15% 0.03 205)", "oklch(27% 0.04 205)", "oklch(39% 0.05 205)", "oklch(51% 0.06 205)", "oklch(63% 0.06 205)", "oklch(75% 0.05 205)", "oklch(87% 0.03 205)", "oklch(95% 0.015 205)"]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Cool Hairline",
+        "tonalRamp": ["oklch(15% 0.025 205)", "oklch(27% 0.035 205)", "oklch(39% 0.045 205)", "oklch(51% 0.055 205)", "oklch(63% 0.055 205)", "oklch(75% 0.045 205)", "oklch(87% 0.028 205)", "oklch(95% 0.012 205)"]
+      },
+      "panel-wash": {
+        "role": "neutral",
+        "displayName": "Panel Wash",
+        "tonalRamp": ["oklch(15% 0.02 195)", "oklch(27% 0.02 195)", "oklch(39% 0.02 195)", "oklch(51% 0.019 195)", "oklch(63% 0.017 195)", "oklch(75% 0.013 195)", "oklch(87% 0.008 195)", "oklch(95% 0.004 195)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Major project names and the most prominent evidence titles." },
+      "headline": { "displayName": "Headline", "purpose": "Section openings and contact statements." },
+      "title": { "displayName": "Title", "purpose": "Feature labels inside the evidence system." },
+      "body": { "displayName": "Body", "purpose": "Project explanations and supporting narrative." },
+      "label": { "displayName": "Technical Label", "purpose": "Dates, statuses, facts, and compact metadata." }
+    },
+    "shadows": [
+      { "name": "frost-highlight", "value": "0 1px 0 rgba(255,255,255,0.24)", "purpose": "Narrow top-lit edge on the hero name only." },
+      { "name": "active-trace-inset", "value": "inset 0 0 16px rgba(255,106,0,0.05)", "purpose": "Restrained material response inside the selected evidence node." }
+    ],
+    "motion": [
+      { "name": "state-fast", "value": "160ms ease", "purpose": "Header and navigation color, border, and background state changes." },
+      { "name": "examination-ease", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Material registration, inspection sweeps, and evidence development." },
+      { "name": "plate-registration", "value": "640ms–820ms examination-ease", "purpose": "Settles the hero evidence sheets into their final alignment on entry." },
+      { "name": "examination-scan", "value": "1150ms examination-ease 260ms both", "purpose": "Runs one bounded scan across the central slab and never loops." },
+      { "name": "evidence-development", "value": "700ms examination-ease", "purpose": "Develops evidence rails and register bars once when their record enters the viewport." },
+      { "name": "trace-path", "value": "900ms cubic-bezier(.25,.8,.25,1) 350ms both", "purpose": "Draws the single active analysis connector; removed when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "layout-compact", "value": "1100px" },
+      { "name": "mobile", "value": "720px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Header Action",
+      "kind": "button",
+      "refersTo": "header-action-primary",
+      "description": "The visible first-viewport route to security work.",
+      "html": "<a class=\"ds-header-action-primary\" href=\"#security-work\">View security work</a>",
+      "css": ".ds-header-action-primary { min-width: 184px; height: 36px; display: inline-flex; align-items: center; justify-content: center; padding: 0 18px; color: #68e7ef; background: transparent; border: 1px solid #52cdd8; border-radius: 5px; font: 400 15px/1 'Signika Negative', system-ui, sans-serif; text-decoration: none; transition: color 160ms ease, border-color 160ms ease, background 160ms ease; } .ds-header-action-primary:hover { border-color: var(--cyan, #58d4e0); background: rgba(88,212,224,0.06); } .ds-header-action-primary:focus-visible { outline: 2px solid var(--cyan, #58d4e0); outline-offset: 4px; } .ds-header-action-primary:active { background: rgba(88,212,224,0.1); }"
+    },
+    {
+      "name": "Secondary Header Action",
+      "kind": "button",
+      "refersTo": "header-action-secondary",
+      "description": "A compact outlined route for GitHub and other secondary destinations.",
+      "html": "<a class=\"ds-header-action-secondary\" href=\"#\">GitHub</a>",
+      "css": ".ds-header-action-secondary { height: 36px; display: inline-flex; align-items: center; justify-content: center; padding: 0 18px; color: #d9e0e1; background: transparent; border: 1px solid rgba(126,171,179,0.72); border-radius: 5px; font: 400 15px/1 'Signika Negative', system-ui, sans-serif; text-decoration: none; transition: color 160ms ease, border-color 160ms ease, background 160ms ease; } .ds-header-action-secondary:hover { border-color: var(--cyan, #58d4e0); background: rgba(88,212,224,0.06); } .ds-header-action-secondary:focus-visible { outline: 2px solid var(--cyan, #58d4e0); outline-offset: 4px; } .ds-header-action-secondary:active { background: rgba(88,212,224,0.1); }"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "refersTo": "primary-nav",
+      "description": "A quiet horizontal index whose current section is revealed in cyan.",
+      "html": "<nav class=\"ds-primary-nav\" aria-label=\"Primary navigation\"><a aria-current=\"page\" href=\"#work\">Work</a><a href=\"#about\">About</a><a href=\"#contact\">Contact</a></nav>",
+      "css": ".ds-primary-nav { display: flex; gap: 38px; color: #d9e0e1; font: 400 16px/1.2 'Signika Negative', system-ui, sans-serif; } .ds-primary-nav a { color: inherit; text-decoration: none; transition: color 160ms ease; } .ds-primary-nav a:hover, .ds-primary-nav a[aria-current] { color: var(--cyan, #58d4e0); } .ds-primary-nav a:focus-visible { outline: 2px solid var(--cyan, #58d4e0); outline-offset: 4px; } .ds-primary-nav a:active { color: #68e7ef; }"
+    },
+    {
+      "name": "Evidence Node",
+      "kind": "custom",
+      "refersTo": "evidence-node",
+      "description": "A traceable unit in the analysis map, with orange reserved for the selected finding.",
+      "html": "<div class=\"ds-evidence-node ds-evidence-node-active\" tabindex=\"0\" aria-label=\"Selected evidence node\"><i></i><i></i><i></i></div>",
+      "css": ".ds-evidence-node { width: 148px; height: 46px; display: flex; flex-direction: column; justify-content: center; gap: 5px; padding: 0 13px; background: rgba(12,30,33,0.22); border: 1px solid rgba(104,174,184,0.72); border-radius: 3px; } .ds-evidence-node i { display: block; width: 72%; height: 2px; background: rgba(111,176,186,0.68); } .ds-evidence-node i:nth-child(2) { width: 52%; } .ds-evidence-node i:nth-child(3) { width: 63%; } .ds-evidence-node-active { border-color: var(--orange, #ff6a00); box-shadow: inset 0 0 16px rgba(255,106,0,0.05); } .ds-evidence-node-active i:first-child { background: rgba(240,134,64,0.7); } .ds-evidence-node:hover { border-color: var(--cyan, #58d4e0); } .ds-evidence-node:focus-visible { outline: 2px solid var(--cyan, #58d4e0); outline-offset: 4px; }"
+    },
+    {
+      "name": "Evidence Rail",
+      "kind": "custom",
+      "refersTo": "evidence-rail",
+      "description": "The four-step analysis sequence, with one orange segment carrying the active state.",
+      "html": "<div class=\"ds-evidence-rail\"><span>APK</span><i></i><span>Components</span><i></i><span>APIs</span><i class=\"ds-active\"></i><span>Evidence</span></div>",
+      "css": ".ds-evidence-rail { display: grid; grid-template-columns: auto 1fr auto 1fr auto 1fr auto; align-items: center; gap: 16px; min-width: 620px; padding: 36px 4%; border-top: 1px solid rgba(98,139,147,0.22); color: #cbd7d9; background: linear-gradient(90deg, rgba(92,116,124,0.09), rgba(12,27,29,0.18)); font: 400 14px/1.2 'Signika Negative', system-ui, sans-serif; letter-spacing: 0.04em; } .ds-evidence-rail i { position: relative; height: 1px; background: #4d7379; } .ds-evidence-rail i::after { content: ''; position: absolute; right: 0; top: -2px; width: 5px; height: 5px; border-radius: 50%; background: var(--cyan, #58d4e0); } .ds-evidence-rail i.ds-active, .ds-evidence-rail i.ds-active::after { background: var(--orange, #ff6a00); } .ds-evidence-rail:hover { background: linear-gradient(90deg, rgba(92,116,124,0.13), rgba(12,27,29,0.22)); } .ds-evidence-rail:focus-within { outline: 2px solid var(--cyan, #58d4e0); outline-offset: 4px; }"
+    },
+    {
+      "name": "Project Study",
+      "kind": "card",
+      "refersTo": "project-study",
+      "description": "A flat, ruled project record that keeps title, evidence, and repository route together.",
+      "html": "<article class=\"ds-project-study\"><h3>Android Intent Attacks</h3><p>CTF write-ups with the vulnerability, proof of concept, and fix left traceable.</p><a href=\"#\">Read the write-ups</a></article>",
+      "css": ".ds-project-study { max-width: 560px; padding: 56px 0; color: #abb9bc; background: transparent; border-top: 1px solid rgba(98,139,147,0.3); border-bottom: 1px solid rgba(98,139,147,0.3); font: 400 17px/1.55 'Signika Negative', system-ui, sans-serif; } .ds-project-study h3 { margin: 0 0 28px; color: #eff2f3; font-size: clamp(34px,4vw,58px); line-height: 0.95; font-weight: 400; } .ds-project-study p { margin: 0; } .ds-project-study a { display: inline-flex; margin-top: 34px; padding-bottom: 6px; color: #dfe7e8; border-bottom: 1px solid rgba(101,210,222,0.7); text-decoration: none; } .ds-project-study a:hover { color: var(--cyan, #58d4e0); } .ds-project-study a:focus-visible { outline: 2px solid var(--cyan, #58d4e0); outline-offset: 4px; } .ds-project-study a:active { color: #68e7ef; }"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "The understated repository and detail action used throughout project records.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">View repository</a>",
+      "css": ".ds-text-link { display: inline-flex; align-items: center; gap: 10px; padding-bottom: 6px; color: #dfe7e8; background: transparent; border-bottom: 1px solid rgba(101,210,222,0.7); font: 400 16px/1.2 'Signika Negative', system-ui, sans-serif; text-decoration: none; white-space: nowrap; transition: color 160ms ease, border-color 160ms ease; } .ds-text-link:hover { color: var(--cyan, #58d4e0); border-color: var(--cyan, #58d4e0); } .ds-text-link:focus-visible { outline: 2px solid var(--cyan, #58d4e0); outline-offset: 4px; } .ds-text-link:active { color: #68e7ef; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Mesa de luz",
+    "overview": "The portfolio behaves like software examined on a museum-conservation light table: a cool graphite field supports one dominant frosted evidence slab, and thin rules make claims feel traceable rather than ornamental. The central “Lâmina central” is the signature expression of this surface, not a requirement that every future page copy its composition.\n\nThe character is direct, technical, honest, curious, and understated. Evidence appears before adjectives; cyan reveals structure and interaction, while orange marks the one path or status that deserves attention. Material grain, translucency, and exact registration create refinement without “muito fru-fru.”",
+    "keyCharacteristics": [
+      "Cool graphite ground with frosted, translucent evidence surfaces.",
+      "Restrained cyan examination light and a single orange annotation voice.",
+      "Fine rules, registration geometry, and compact technical labels.",
+      "Clear field-of-study positioning with no inflated expertise claims.",
+      "Dense evidence on wide screens that becomes an orderly vertical sequence on mobile."
+    ],
+    "rules": [
+      { "name": "The Two-Ink Rule", "body": "Cyan explains the examination system; orange identifies the exceptional active path. Do not use both as equal decoration.", "section": "colors" },
+      { "name": "The Evidence Contrast Rule", "body": "Headings stay frosted and bright, supporting copy stays misted, and metadata recedes further so scanning order remains visible without extra ornament.", "section": "colors" },
+      { "name": "The One-Face Rule", "body": "Stay within Signika Negative and create hierarchy through scale, weight, rhythm, and contrast; do not introduce a display face merely to make the portfolio feel more “designed.”", "section": "typography" },
+      { "name": "The Honest Label Rule", "body": "Uppercase tracking signals metadata or state, never a promotional eyebrow above every section.", "section": "typography" },
+      { "name": "The Slab-Then-Sequence Rule", "body": "Preserve one dominant evidence surface in the first viewport, then let subsequent sections read as ruled records rather than a wall of independent cards.", "section": "layout" },
+      { "name": "The Tonal-Not-Floating Rule", "body": "Establish depth with translucency, overlap, texture, and ruled separation; do not add generic drop shadows to section containers.", "section": "elevation" },
+      { "name": "The Technical Corner Rule", "body": "Keep controls between square and 5px; larger friendly-card rounding would break the light-table material language.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do lead with a concrete artifact, trace, project fact, or source relationship before applying evaluative language.",
+      "Do keep cyan structural and interactive, and reserve orange for one active finding, status, or path.",
+      "Do use fine rules, tonal washes, and translucency to group dense technical information.",
+      "Do preserve the explicit “field of study” positioning whenever mobile security and reverse engineering lead the page.",
+      "Do linearize evidence on narrow screens and remove connectors that would cross or obscure content."
+    ],
+    "donts": [
+      "Don't turn the interface into a neon hacker terminal or a conventional split-hero portfolio.",
+      "Don't describe learning-stage work as expert authority, commercial proof, or unverified proficiency.",
+      "Don't add large radii, pill-heavy UI, glossy gradients, or generic floating-card shadows.",
+      "Don't use orange as a second general-purpose brand color; it is a scarce annotation.",
+      "Don't promote the hero’s exact plate coordinates or registration offsets into a universal layout recipe."
+    ]
+  }
+}
